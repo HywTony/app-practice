@@ -1,0 +1,27 @@
+# 小红书 MCP 相关文件
+xiaohongshu-mcp-windows-amd64.zip
+xiaohongshu-mcp-windows-amd64/
+
+# 数据和缓存目录
+data/
+images/
+
+# Docker 相关
+docker-compose.override.yml
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo

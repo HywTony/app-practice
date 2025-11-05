@@ -7,7 +7,20 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "Bash(gh:*)"
+      "Bash(gh:*)",
+      "Bash(git credential-manager:*)",
+      "Bash(printf:*)",
+      "Bash(git remote set-url:*)",
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "Bash(docker:*)",
+      "Bash(claude mcp add:*)",
+      "mcp__xiaohongshu-mcp__check_login_status",
+      "mcp__xiaohongshu-mcp__search_feeds",
+      "mcp__xiaohongshu-mcp__get_feed_detail",
+      "Bash(echo:*)",
+      "Bash(del post_01_pricing_logic.md)",
+      "Bash(git log:*)"
     ],
     "deny": [],
     "ask": []

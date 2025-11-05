@@ -1,0 +1,92 @@
+# 巨爆铺小红书自动化营销配置文件
+
+# 产品信息
+product:
+  name: "巨爆铺"
+  url: "https://jubaopu.top/"
+  description: "Temu电商精细化运营工具"
+  features:
+    - "批量采集上架"
+    - "自动同步库存"
+    - "智能核价"
+    - "批量自动报名活动"
+  target_users:
+    - "Temu卖家"
+    - "跨境电商从业者"
+    - "电商运营新手"
+  pain_points:
+    - "手动操作效率低"
+    - "容易出错"
+    - "无法大批量管理"
+    - "错过活动报名"
+
+# 内容策略
+content_strategy:
+  post_frequency: 2  # 每天发布次数
+  post_times:
+    - "09:00"  # 早高峰
+    - "20:00"  # 晚高峰
+
+  content_types:
+    - type: "tool_collection"
+      name: "工具合集型"
+      weight: 30
+      templates: ["template_tool_1", "template_tool_2"]
+    - type: "tutorial"
+      name: "教程指南型"
+      weight: 25
+      templates: ["template_tutorial_1", "template_tutorial_2"]
+    - type: "comparison"
+      name: "对比测评型"
+      weight: 25
+      templates: ["template_comparison_1"]
+    - type: "pain_point"
+      name: "痛点共鸣型"
+      weight: 20
+      templates: ["template_pain_1"]
+
+# 话题标签池
+hashtags:
+  primary:  # 主要标签（必选）
+    - "跨境电商运营"
+    - "TEMU运营工具"
+    - "电商效率神器"
+  secondary:  # 次要标签（必选2-3个）
+    - "temu选品"
+    - "跨境电商小白"
+    - "运营干货"
+    - "电商工具推荐"
+    - "temu半托管"
+    - "电商运营"
+  optional:  # 可选标签（选1-2个）
+    - "TikTok"
+    - "希音"
+    - "电商创业"
+    - "跨境电商神器"
+    - "电商效率工具"
+
+# AI配置
+ai:
+  provider: "claude"  # claude / openai
+  model: "claude-3-5-sonnet-20241022"
+  api_base: "https://api.anthropic.com"
+  temperature: 0.8
+  max_tokens: 1500
+
+# 图片配置
+image:
+  method: "placeholder"  # placeholder / canva / midjourney
+  size: [1242, 1656]
+  count: 3  # 每篇笔记图片数量
+  save_path: "assets/images"
+
+# 发布配置
+publish:
+  auto_publish: false  # 是否自动发布（建议先手动审核）
+  save_draft: true     # 保存草稿
+  log_path: "logs/publish_log.json"
+
+# 监控配置
+monitoring:
+  track_metrics: true
+  report_interval: 7  # 每7天生成一次报告

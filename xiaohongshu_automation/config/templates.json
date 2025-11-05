@@ -1,0 +1,98 @@
+{
+  "templates": {
+    "template_tool_1": {
+      "name": "工具合集-效率提升",
+      "title_pattern": "Temu卖家必备！这{count}个功能让效率飙升{multiple}倍！",
+      "content_structure": [
+        "痛点引入（1-2句）",
+        "发现工具的惊喜",
+        "功能列表（3-5个，带emoji）",
+        "使用效果",
+        "推荐总结"
+      ],
+      "style": "兴奋、实用",
+      "emoji_density": "high"
+    },
+    "template_tool_2": {
+      "name": "工具合集-新手友好",
+      "title_pattern": "新手做Temu必看！{benefit}只需{time}",
+      "content_structure": [
+        "新手困境描述",
+        "工具介绍",
+        "功能详解（步骤化）",
+        "实际效果",
+        "鼓励+CTA"
+      ],
+      "style": "友好、鼓励",
+      "emoji_density": "medium"
+    },
+    "template_comparison_1": {
+      "name": "对比测评型",
+      "title_pattern": "对比了{count}款Temu工具，这个最好用！",
+      "content_structure": [
+        "测评背景",
+        "对比维度列表",
+        "优势总结",
+        "真实效果数据",
+        "推荐理由"
+      ],
+      "style": "客观、数据化",
+      "emoji_density": "medium"
+    },
+    "template_pain_1": {
+      "name": "痛点共鸣型",
+      "title_pattern": "{pain_scenario}？你该{solution}了！",
+      "content_structure": [
+        "场景化痛点描述",
+        "共鸣式自述",
+        "转折-发现工具",
+        "使用后的改变",
+        "情感化总结"
+      ],
+      "style": "共鸣、故事化",
+      "emoji_density": "high"
+    },
+    "template_tutorial_1": {
+      "name": "教程-快速上手",
+      "title_pattern": "【超详细】{task}只需{time}，新手也能学会！",
+      "content_structure": [
+        "教程说明",
+        "步骤1（带序号和emoji）",
+        "步骤2",
+        "步骤3",
+        "效果展示",
+        "CTA评论互动"
+      ],
+      "style": "清晰、步骤化",
+      "emoji_density": "medium"
+    },
+    "template_tutorial_2": {
+      "name": "教程-进阶技巧",
+      "title_pattern": "{skill}的{count}个隐藏技巧，90%的人不知道！",
+      "content_structure": [
+        "技巧背景",
+        "技巧列表（编号+说明）",
+        "实战案例",
+        "注意事项",
+        "总结"
+      ],
+      "style": "专业、深入",
+      "emoji_density": "low"
+    }
+  },
+  "variables": {
+    "count": ["3", "5", "7", "10"],
+    "multiple": ["10", "5", "3"],
+    "time": ["3分钟", "5分钟", "10分钟"],
+    "benefit": ["批量上架", "库存同步", "智能核价", "活动报名"],
+    "task": ["Temu批量上架", "库存自动同步", "竞品价格分析"],
+    "skill": ["Temu运营", "批量管理", "活动报名"],
+    "pain_scenario": [
+      "凌晨3点还在上架",
+      "每天核价到头疼",
+      "库存总是对不上",
+      "又错过活动报名了"
+    ],
+    "solution": ["换工具", "升级系统", "试试这个", "自动化"]
+  }
+}
